@@ -1,0 +1,13 @@
+Toads:
+Colonials - Long-time descendants of a Mushroom Kingdom colony established in the Northeast region. Forms a permanent population
+Tourists - From the Mushroom Kingdom and overseas territories.
+
+Human:
+New Donkers - Metro Kingdom, Capitol District. Wear grey business attire, except Pauline's band.
+Natives - Throughout the Federation and beyond. Lived in tribes and founded most of the Federation kingdoms. Clothes vary depending on culture.
+Corpos - Cascades City. They wear business attire depending on what megacorp they work for.
+Streetfolk - Urban Areas. Wear casual clothing and earn less than New Donkers or Corpos.
+Countryfolk - Rural Areas. They are responsible for the production of food which feeds millions of people.
+
+Other:
+Kremlings - Some populations take up residence in the wetlands of the Bayou Kingdom and Federal-Muda Disputed Territory, away from K. Rool's tyranny.
