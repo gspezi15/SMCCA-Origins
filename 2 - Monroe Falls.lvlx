@@ -4,7 +4,7 @@ HEAD_END
 SECTION
 SC:0;L:-200000;R:-187008;T:-200600;B:-200000;MZ:24;MF:"2 - Zwei OST - Kenopi Volcano.ogg";BG:23;XTRA:"{\n    \"darkness\"\: {\n        \"playerlight\"\: {\n            \"enabled\"\: false\n        }\n    }\,\n    \"effects\"\: {\n        \"screenEffects\"\: 5\n    }\n}\n";
 SC:1;L:-180000;R:-179200;T:-182816;B:-180000;MZ:24;MF:"2 - Zwei OST - Kenopi Volcano.ogg";BG:3;
-SC:2;L:-160032;R:-150240;T:-160600;B:-160000;MZ:24;MF:"2 - Zwei OST - Kenopi Volcano.ogg";BG:23;XTRA:"{\n    \"effects\"\: {\n        \"screenEffects\"\: 5\n    }\n}\n";
+SC:2;L:-160000;R:-150240;T:-160600;B:-160000;MZ:24;MF:"2 - Zwei OST - Kenopi Volcano.ogg";BG:23;XTRA:"{\n    \"effects\"\: {\n        \"screenEffects\"\: 5\n    }\n}\n";
 SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:0;MF:"";BG:2;
 SC:4;L:-120000;R:-119200;T:-120600;B:-120000;MZ:0;MF:"";BG:0;
 SECTION_END
