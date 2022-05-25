@@ -1,0 +1,13 @@
+[cave]
+img="cave.png"
+depth=200
+alignY=BOTTOM
+repeatX=true
+repeatY=true
+
+[mine]
+img="background2-13.png"
+depth=100
+alignY=BOTTOM
+repeatX=true
+repeatY=true

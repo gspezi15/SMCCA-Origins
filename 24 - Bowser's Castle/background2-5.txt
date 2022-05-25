@@ -1,0 +1,6 @@
+[background]
+img="background2-6.png"
+depth=1000
+repeatX=true
+alignY=BOTTOM
+speedX=-0.1

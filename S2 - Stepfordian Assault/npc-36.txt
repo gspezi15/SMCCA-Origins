@@ -1,0 +1,7 @@
+gfxwidth=54
+gfxheight=34
+width=32
+height=32
+frames=8
+framestyle=1
+name="Shellcreeper"

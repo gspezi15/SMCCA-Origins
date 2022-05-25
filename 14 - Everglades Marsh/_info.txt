@@ -1,0 +1,21 @@
+---         Kritters          ---
+--- from MrDoubleA's NPC Pack ---
+---       (Give credit!)      ---
+
+
+
+The kritters have the following properties for NPC configs and npc-n.txt files:
+
+
+- harmSFX (Default: "kritter_harm.wav")
+The sound effect played when the NPC is harmed. Can be nil for none, a number for a vanilla sound, or a sound effect object/string for a custom sound.
+
+- jumpXSpeed (Defaults: nil, nil, nil, nil, 2.85, nil)
+The X speed the NPC gets when jumping. (Only affects yellow kritters.)
+- jumpYSpeed (Defaults: nil, nil, -6.5, -9.5, -7.5, -7)
+The Y speed the NPC gets when jumping. (Only affects blue, black, yellow, and purple kritters.)
+
+- bounces (Defaults: nil, nil, 0, 2, nil, nil)
+The amount of bounces the NPC does before a larger jump. (Only affects blue and black kritters.)
+- bounceYSpeed (Defaults: nil, nil, 0, -3, nil, nil)
+The Y speed the NPC gets when bouncing before a larger jump. (Only affects blue and black kritters.)

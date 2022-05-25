@@ -1,0 +1,6 @@
+height=98
+width=96
+gfxheight=107
+gfxwidth=96
+playerblocktop=0
+npcblocktop=0

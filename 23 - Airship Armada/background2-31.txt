@@ -1,0 +1,13 @@
+[backclouds]
+img="backclouds.png"
+depth=300
+alignY=BOTTOM
+speedX=-0.5
+repeatX=true
+
+[foreclouds]
+img="foreclouds.png"
+depth=100
+alignY=BOTTOM
+speedX=-1.5
+repeatX=true

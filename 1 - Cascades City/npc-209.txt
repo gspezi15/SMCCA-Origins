@@ -1,0 +1,8 @@
+gfxwidth=380
+gfxheight=168
+height=168
+width=380
+frames=6
+framestyle=1
+playerblock=0
+npcblock=0

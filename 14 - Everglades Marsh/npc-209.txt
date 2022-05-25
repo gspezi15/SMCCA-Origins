@@ -1,0 +1,6 @@
+gfxwidth=68
+gfxheight=86
+width=68
+height=96
+health=4
+frames=4

@@ -1,0 +1,7 @@
+gfxwidth=128
+gfxheight=128
+width=96
+height=64
+frames=1
+framestyle=0
+name="Domesticator Device"

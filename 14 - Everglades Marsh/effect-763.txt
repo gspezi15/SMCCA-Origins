@@ -1,0 +1,8 @@
+[1]
+lifetime=48
+frames=6
+framestyle=0
+framespeed=8
+priority=FOREGROUND
+spawnBindX=MID
+spawnBindY=MID

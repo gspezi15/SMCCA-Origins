@@ -1,0 +1,6 @@
+gfxheight=38
+gfxwidth=40
+height=38
+width=40
+foreground=1
+gfxoffsetx=-2

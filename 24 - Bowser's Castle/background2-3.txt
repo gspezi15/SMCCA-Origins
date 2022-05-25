@@ -1,0 +1,13 @@
+[dungeon1]
+img="dungeon1.png"
+depth=100
+repeatX=true
+alignY=BOTTOM
+parallaxY=0.5
+
+[dungeon2]
+img="dungeon2.png"
+depth=200
+repeatX=true
+alignY=BOTTOM
+parallaxY=0.5

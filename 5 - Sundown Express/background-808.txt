@@ -1,0 +1,5 @@
+priority=-88
+frames=8
+framespeed=2
+height=64
+width=64

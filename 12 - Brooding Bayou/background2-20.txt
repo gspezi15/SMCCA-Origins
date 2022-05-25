@@ -1,0 +1,11 @@
+[swamp]
+img="swamp.png"
+depth=300
+repeatX=true
+alignY=BOTTOM
+
+[fore]
+img="front.png"
+depth=150
+repeatX=true
+alignY=BOTTOM

@@ -1,0 +1,13 @@
+frames=1
+framestyle=0
+gfxheight=44
+gfxwidth=44
+height=44
+width=44
+noyoshi=1
+playerblocktop=0
+jumphurt=0
+noblockcollision=1
+nogravity=1
+nofireball=1
+noiceball=1
