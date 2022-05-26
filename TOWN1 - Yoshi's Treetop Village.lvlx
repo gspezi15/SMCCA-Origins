@@ -2,7 +2,7 @@ HEAD
 TL:"TOWN1 - Yoshi's Treetop Village";CPID:"SMBX2";
 HEAD_END
 SECTION
-SC:0;L:-201568;R:-197696;T:-201312;B:-200000;MZ:24;MF:"TOWN1 - Nice Weather Ain't it!.spc";BG:20;
+SC:0;L:-201568;R:-197696;T:-201312;B:-200000;MZ:24;MF:"TOWN1 - Nice Weather Ain't it!.spc";BG:20;OE:1;
 SC:1;L:-180000;R:-179200;T:-180600;B:-180000;MZ:24;MF:"TOWN1 - Nice Weather Ain't it!.spc";BG:17;
 SC:2;L:-160000;R:-159200;T:-160600;B:-160000;MZ:24;MF:"TOWN1 - Nice Weather Ain't it!.spc";BG:17;
 SECTION_END
