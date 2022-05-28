@@ -6,7 +6,7 @@ repeatX=true
 repeatY=true
 
 [mine]
-img="mine1.png"
+img="mine2.png"
 depth=100
 alignY=BOTTOM
 repeatX=true
