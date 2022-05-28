@@ -3,9 +3,10 @@ TL:"1 - Cascades City";CPID:"SMBX2";
 HEAD_END
 SECTION
 SC:0;L:-200000;R:-186272;T:-200600;B:-200000;MZ:24;MF:"1A - Shadowun 10th Street.spc";BG:23;
+SC:1;L:-180000;R:-179200;T:-180600;B:-180000;MZ:0;MF:"";BG:0;
 SECTION_END
 STARTPOINT
-ID:1;X:-199772;Y:-200214;D:1;
+ID:1;X:-199820;Y:-200214;D:1;
 ID:2;X:-199852;Y:-200220;D:1;
 STARTPOINT_END
 BLOCK
@@ -1027,6 +1028,25 @@ ID:590;X:-186624;Y:-200096;W:32;H:32;
 ID:590;X:-186368;Y:-200096;W:32;H:32;
 ID:590;X:-186432;Y:-200096;W:32;H:32;
 ID:590;X:-186304;Y:-200096;W:32;H:32;
+ID:65;X:-180000;Y:-180608;W:32;H:32;
+ID:65;X:-179232;Y:-180608;W:32;H:32;
+ID:1006;X:-187104;Y:-200608;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200608;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200576;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200544;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200512;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200480;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200448;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200416;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200384;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200352;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200320;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200288;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200256;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200224;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200192;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200160;W:32;H:32;LR:"gate";
+ID:1006;X:-187136;Y:-200128;W:32;H:32;LR:"gate";
 BLOCK_END
 BGO
 ID:60;X:-200000;Y:-200128;
@@ -1670,16 +1690,20 @@ ID:499;X:-189408;Y:-200380;D:-1;
 ID:753;X:-189088;Y:-200608;D:1;GE:1;GT:1;GD:3;GM:60;XTRA:"{\n    \"platformCount\"\: 2\,\n    \"radius\"\: 128\,\n    \"rotationSpeed\"\: 1.5\,\n    \"startingRotation\"\: 90\n}\n";
 ID:311;X:-189536;Y:-200240;D:-1;
 ID:311;X:-193152;Y:-200176;D:-1;
-ID:847;X:-186784;Y:-200128;D:-1;
-ID:881;X:-186720;Y:-200128;D:-1;
+ID:847;X:-186560;Y:-200160;D:-1;EA:"bossmusic";ED:"orb";XTRA:"{\n    \"bossIcon\"\: \"placeholderbox.png\"\,\n    \"bossName\"\: \"Sakura Inc. Machine\"\,\n    \"height\"\: 64\,\n    \"textureFilename\"\: \"placeholderbox.png\"\,\n    \"width\"\: 64\n}\n";
+ID:881;X:-186720;Y:-200128;D:-1;LR:"orb";
 NPC_END
 LAYERS
 LR:"Default";
 LR:"Destroyed Blocks";HD:1;
 LR:"Spawned NPCs";
+LR:"orb";HD:1;
+LR:"gate";HD:1;
 LAYERS_END
 EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - End";AS:0;AX:0;AY:0;
+ET:"bossmusic";LS:["gate"];SSS:["ID\:0\;SL\:-187104\;ST\:-200600\;SB\:-200000\;SR\:-186272\;MI\:6\;"];AS:0;AX:0;AY:0;
+ET:"orb";LS:["orb"];AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END
