@@ -1,0 +1,17 @@
+[sky]
+img="dr_cybersky.png"
+depth=800
+repeatX=true
+alignY=BOTTOM
+
+[hills]
+img="hills.png"
+depth=500
+repeatX=true
+alignY=BOTTOM
+
+[blocks]
+img="blocks.png"
+depth=200
+repeatX=true
+alignY=BOTTOM

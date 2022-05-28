@@ -1,0 +1,17 @@
+[gradient]
+img="enj_grad.png"
+depth=800
+repeatX=true
+alignY=BOTTOM
+
+[rearscrapers]
+img="rearscrapers.png"
+depth=400
+repeatX=true
+alignY=BOTTOM
+
+[dr_cityscape]
+img="dr_cityscape.png"
+depth=250
+repeatX=true
+alignY=BOTTOM
