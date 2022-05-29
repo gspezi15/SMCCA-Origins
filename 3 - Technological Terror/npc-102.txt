@@ -1,0 +1,3 @@
+gfxwidth=64
+gfxheight=96
+name="Banhammer"
