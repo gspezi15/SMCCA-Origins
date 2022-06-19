@@ -1,0 +1,7 @@
+height=60
+gfxheight=64
+width=64
+gfxwidth=64
+framestyle=1
+speed=2
+grabtop=false
