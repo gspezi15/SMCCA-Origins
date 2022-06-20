@@ -15,7 +15,7 @@ local obj = {}
 
 
 smwMap.setObjSettings(npcID,{
-    framesY = 5,
+    framesY = 1,
 
     onTickObj = (function(v)
         local totalFrames = smwMap.getObjectConfig(v.id).framesY
@@ -28,8 +28,6 @@ smwMap.setObjSettings(npcID,{
     end),
 
     isLevel = true,
-
-    hasDestroyedAnimation = true,
 })
 
 
