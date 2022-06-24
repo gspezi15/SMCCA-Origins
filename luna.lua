@@ -4,3 +4,4 @@ local minHUD = require("minHUD")
 local littleDialogue = require("littleDialogue")
 local smwMap = require("smwMap")
 littleDialogue.defaultStyleName = "ml"
+local extraSounds = require ("extrasounds")
