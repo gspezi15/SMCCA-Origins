@@ -1,7 +1,7 @@
 [sky]
 name="sky"
 img="sky.png"
-depth=400
+depth=600
 speedX=-0.6
 alignY=BOTTOM
 repeatX=true
@@ -9,13 +9,13 @@ repeatX=true
 [mountains]
 name="mountains"
 img="mountain2.png"
-depth=200
+depth=400
 alignY=BOTTOM
 repeatX=true
 
 [hakkunhills]
-name="hakkunhills"
-img="background2-11.png"
-depth=100
+name="trees"
+img="trees.png"
+depth=150
 alignY=BOTTOM
 repeatX=true
