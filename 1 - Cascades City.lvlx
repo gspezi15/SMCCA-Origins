@@ -1690,8 +1690,8 @@ ID:499;X:-189408;Y:-200380;D:-1;
 ID:753;X:-189088;Y:-200608;D:1;GE:1;GT:1;GD:3;GM:60;XTRA:"{\n    \"platformCount\"\: 2\,\n    \"radius\"\: 128\,\n    \"rotationSpeed\"\: 1.5\,\n    \"startingRotation\"\: 90\n}\n";
 ID:311;X:-189536;Y:-200240;D:-1;
 ID:311;X:-193152;Y:-200176;D:-1;
-ID:847;X:-186560;Y:-200160;D:-1;EA:"bossmusic";ED:"orb";XTRA:"{\n    \"bossIcon\"\: \"placeholderbox.png\"\,\n    \"bossName\"\: \"Sakura Inc. Machine\"\,\n    \"height\"\: 64\,\n    \"textureFilename\"\: \"placeholderbox.png\"\,\n    \"width\"\: 64\n}\n";
 ID:881;X:-186720;Y:-200128;D:-1;LR:"orb";
+ID:847;X:-186560;Y:-200160;D:-1;EA:"bossmusic";ED:"orb";XTRA:"{\n    \"bossIcon\"\: \"placeholderbox.png\"\,\n    \"bossName\"\: \"Sakura Inc. Machine\"\,\n    \"height\"\: 64\,\n    \"textureFilename\"\: \"0\"\,\n    \"width\"\: 64\n}\n";
 NPC_END
 LAYERS
 LR:"Default";
