@@ -1,0 +1,8 @@
+gfxoffsety=2
+gfxwidth=96
+gfxheight=52
+width=48
+playerblocktop=0
+jumphurt=0
+framespeed=8
+name="Corrupted Wolf"
