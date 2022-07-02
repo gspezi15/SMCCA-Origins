@@ -229,12 +229,14 @@ ID:752;X:-195616;Y:-200288;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"na
 ID:871;X:-195424;Y:-200368;D:-1;
 ID:752;X:-198336;Y:-200512;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"redwoodtrail4\"\,\n    \"points\"\: \"32\,0\, -32\,0\, -96\,0\, -96\,96\"\,\n    \"smoothness\"\: 0.1\,\n    \"types\"\: \"normal\"\n}\n";
 ID:821;X:-199200;Y:-200224;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"caldera\"\,\n    \"levelTitle\"\: \"Warp to the Caldera\"\,\n    \"path_left\"\: \"warp2\"\,\n    \"warpName\"\: \"citywarp2\"\n}\n";
-ID:851;X:-195456;Y:-200288;D:-1;XTRA:"{\n    \"levelFilename\"\: \"11 - Stormy Sprint.lvlx\"\,\n    \"levelTitle\"\: \"Stormy Sprint\"\,\n    \"path_left\"\: \"tornadoalley\"\n}\n";
+ID:851;X:-195456;Y:-200288;D:-1;XTRA:"{\n    \"levelFilename\"\: \"11 - Stormy Sprint.lvlx\"\,\n    \"levelTitle\"\: \"Stormy Sprint\"\,\n    \"path_left\"\: \"tornadoalley\"\,\n    \"unlock_right\"\: 4\n}\n";
 ID:751;X:-199808;Y:-200416;D:-1;
 ID:821;X:-198496;Y:-199776;D:-1;XTRA:"{\n    \"destinationWarpName\"\: \"citywarp2\"\,\n    \"levelTitle\"\: \"Warp to Kingdom of Cascadia\"\,\n    \"path_up\"\: \"caldera\"\,\n    \"warpName\"\: \"caldera\"\n}\n";
 ID:857;X:-198368;Y:-199936;D:-1;XTRA:"{\n    \"levelFilename\"\: \"S1 - Caldera Parkway.lvlx\"\,\n    \"levelTitle\"\: \"Caldera Parkway\"\,\n    \"path_left\"\: \"caldera\"\n}\n";
 ID:753;X:-198592;Y:-200192;D:-1;XTRA:"{\n    \"customMusicPath\"\: \"World Map/The Caldera.spc\"\,\n    \"height\"\: 512\,\n    \"music\"\: 2\,\n    \"restrictCamera\"\: true\n}\n";
 ID:752;X:-198496;Y:-199808;D:-1;XTRA:"{\n    \"name\"\: \"caldera\"\,\n    \"points\"\: \"0\,32\, 0\,-128\, 128\,-128\"\n}\n";
+ID:752;X:-195424;Y:-200288;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"tornadoalley\"\,\n    \"points\"\: \"-32\,0\,160\,0\"\,\n    \"types\"\: \"normal\"\n}\n";
+ID:851;X:-195264;Y:-200288;D:-1;XTRA:"{\n    \"levelFilename\"\: \"End of Demo.lvlx\"\n}\n";
 NPC_END
 LAYERS
 LR:"Default";
