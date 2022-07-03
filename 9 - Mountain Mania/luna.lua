@@ -2,10 +2,10 @@ local areaNames = require("areanames")
 
 --Change this in your lua file to have automatically appearing messages on section switch for specific sections:
 areaNames.sectionNames = {
-	[0] = "Tornado Alley",
-        [1] = "Tornado!!!",
-		[2] = "Barn",
-        [3] = "Tatsumaki the Super Lakithunder",
+	[0] = "Mountain Mania",
+        [1] = "Mountain Tunnel",
+		[2] = "Mountain Blaze",
+        [3] = "",
         [4] = "",
         [5] = "",
         [6] = "",
