@@ -197,7 +197,7 @@ ID:851;X:-197216;Y:-200480;D:-1;XTRA:"{\n    \"levelFilename\"\: \"8 - Monolith 
 ID:821;X:-197216;Y:-200608;D:-1;XTRA:"{\n    \"destinationWarpName\"\: \"rockies\"\,\n    \"levelTitle\"\: \"Warp to the Rockies\"\,\n    \"path_down\"\: \"desertwarp\"\,\n    \"warpName\"\: \"desert\"\n}\n";
 ID:821;X:-196608;Y:-200320;D:-1;XTRA:"{\n    \"destinationWarpName\"\: \"desert\"\,\n    \"levelTitle\"\: \"Warp to Kalimari\"\,\n    \"path_right\"\: \"rockyroad\"\,\n    \"unlock_down\"\: false\,\n    \"unlock_left\"\: false\,\n    \"unlock_up\"\: false\,\n    \"warpName\"\: \"rockies\"\n}\n";
 ID:851;X:-196416;Y:-200256;D:-1;XTRA:"{\n    \"levelFilename\"\: \"9 - Mountain Mania.lvlx\"\,\n    \"levelTitle\"\: \"Mountain Mania\"\,\n    \"path_left\"\: \"rockyroad\"\,\n    \"path_right\"\: \"rockytrail\"\,\n    \"unlock_right\"\: 3\n}\n";
-ID:842;X:-196256;Y:-200432;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"\"\,\n    \"path_down\"\: \"villagesteps\"\n}\n";
+ID:842;X:-196256;Y:-200432;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelFilename\"\: \"TOWN2 - Mountain Resort.lvlx\"\,\n    \"levelTitle\"\: \"Mountain Resort\"\,\n    \"path_down\"\: \"villagesteps\"\n}\n";
 ID:821;X:-196128;Y:-200256;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"destinationWarpName\"\: \"prairie\"\,\n    \"levelTitle\"\: \"Warp to Great Prairie\"\,\n    \"path_left\"\: \"rockyend\"\,\n    \"warpName\"\: \"rockiesend\"\n}\n";
 ID:811;X:-199808;Y:-200416;D:-1;XTRA:"{\n    \"alwaysVisible\"\: true\,\n    \"levelTitle\"\: \"LEVEL START\"\,\n    \"path_right\"\: \"startpath\"\,\n    \"unlock_right\"\: 1\n}\n";
 ID:852;X:-199296;Y:-200224;D:-1;XTRA:"{\n    \"levelFilename\"\: \"3 - Technological Terror.lvlx\"\,\n    \"levelTitle\"\: \"Technological Terror\"\,\n    \"path_left\"\: \"warp1\"\,\n    \"path_right\"\: \"warp2\"\,\n    \"path_up\"\: \"parktrail\"\,\n    \"unlock_left\"\: 4\,\n    \"unlock_right\"\: 6\n}\n";
@@ -236,7 +236,7 @@ ID:857;X:-198368;Y:-199936;D:-1;XTRA:"{\n    \"levelFilename\"\: \"S1 - Caldera 
 ID:753;X:-198592;Y:-200192;D:-1;XTRA:"{\n    \"customMusicPath\"\: \"World Map/The Caldera.spc\"\,\n    \"height\"\: 512\,\n    \"music\"\: 2\,\n    \"restrictCamera\"\: true\n}\n";
 ID:752;X:-198496;Y:-199808;D:-1;XTRA:"{\n    \"name\"\: \"caldera\"\,\n    \"points\"\: \"0\,32\, 0\,-128\, 128\,-128\"\n}\n";
 ID:752;X:-195424;Y:-200288;D:-1;XTRA:"{\n    \"hideIfLocked\"\: true\,\n    \"name\"\: \"swampwarp\"\,\n    \"points\"\: \"-32\,0\,160\,0\"\,\n    \"types\"\: \"normal\"\n}\n";
-ID:851;X:-195264;Y:-200288;D:-1;XTRA:"{\n    \"levelFilename\"\: \"End of Demo.lvlx\"\n}\n";
+ID:851;X:-195264;Y:-200288;D:-1;XTRA:"{\n    \"levelFilename\"\: \"End of Demo.lvlx\"\,\n    \"levelTitle\"\: \"End of Demo\"\,\n    \"path_left\"\: \"swampwarp\"\n}\n";
 NPC_END
 LAYERS
 LR:"Default";

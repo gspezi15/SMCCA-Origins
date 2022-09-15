@@ -4,7 +4,7 @@ HEAD_END
 SECTION
 SC:0;L:-200000;R:-184928;T:-200600;B:-200000;MZ:24;MF:"10 - Wildstyle Pistolero (Mirage Saloon Zone Act 1 K Mix).ogg";BG:12;
 SC:1;L:-180000;R:-170368;T:-180600;B:-180000;MZ:24;MF:"10 - Wildstyle Pistolero (Mirage Saloon Zone Act 1 K Mix).ogg";BG:12;
-SC:2;L:-160000;R:-148000;T:-160600;B:-160000;MZ:24;MF:"10B - We have Lee but you don't have.mp3";BG:12;
+SC:2;L:-160000;R:-148000;T:-160600;B:-160000;MZ:24;MF:"10B - We have Lee but you don't have.ogg";BG:12;
 SC:3;L:-140000;R:-138368;T:-140600;B:-140000;MZ:24;MF:"10 - Wildstyle Pistolero (Mirage Saloon Zone Act 1 K Mix).ogg";BG:20;
 SECTION_END
 STARTPOINT

@@ -1,0 +1,28 @@
+Level Assets:
+Powerups - RedballBomb
+Thwomps - Mr. Pink Teddy
+Many NPC sprites - Sans1m0n
+Rexes - Spinda
+Bill Blasters - Damarioman
+Barrels - AirShip
+Goombas - Sinopolis Mawboi
+Pipes - Shikaternia
+
+LunaLua
+extrasounds - Spencer Everly
+warpTransition - MrDoubleA
+minHud - Hatsune Blake
+littleDialogue - MrDoubleA
+Goal Orbs - MrDoubleA
+Boss Base - Core
+SmwMap - MrDoubleA
+
+Music:
+Radical Fish Games (Deniz Akhblut)
+Nintendo
+ASCII
+Maxis
+Tee Lopes - Sonic Mania tracks
+Idea Factory
+Falcom
+SoundTEMP

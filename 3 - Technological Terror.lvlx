@@ -4,12 +4,12 @@ HEAD_END
 SECTION
 SC:0;L:-200000;R:-192736;T:-200600;B:-200000;MZ:24;MF:"3 - CrossCode OST - Rhombus Dungeon.ogg";BG:1;XTRA:"{\n    \"darkness\"\: {\n        \"ambient\"\: \"#20203eff\"\,\n        \"enableDarkness\"\: false\n    }\,\n    \"effects\"\: {\n        \"screenEffects\"\: 0\,\n        \"weather\"\: 1\n    }\n}\n";
 SC:1;L:-180000;R:-165728;T:-180600;B:-180000;MZ:24;MF:"3 - CrossCode OST - Rhombus Dungeon.ogg";BG:3;
-SC:2;L:-160000;R:-150624;T:-160600;B:-160000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:33;OE:1;
-SC:3;L:-140416;R:-138784;T:-140896;B:-140000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:39;
-SC:4;L:-120000;R:-119200;T:-120600;B:-120000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:39;
-SC:5;L:-100000;R:-99200;T:-100992;B:-100000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:39;
-SC:6;L:-80000;R:-79200;T:-80992;B:-80000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:39;XTRA:"{\n    \"effects\"\: {\n        \"screenEffects\"\: 1\n    }\n}\n";
-SC:7;L:-60000;R:-59200;T:-60992;B:-60000;MZ:24;MF:"3b - Lastation Theme ver.V.mp3";BG:39;
+SC:2;L:-160000;R:-150624;T:-160600;B:-160000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:33;OE:1;
+SC:3;L:-140416;R:-138784;T:-140896;B:-140000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:39;
+SC:4;L:-120000;R:-119200;T:-120600;B:-120000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:39;
+SC:5;L:-100000;R:-99200;T:-100992;B:-100000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:39;
+SC:6;L:-80000;R:-79200;T:-80992;B:-80000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:39;XTRA:"{\n    \"effects\"\: {\n        \"screenEffects\"\: 1\n    }\n}\n";
+SC:7;L:-60000;R:-59200;T:-60992;B:-60000;MZ:24;MF:"3b - Lastation Theme ver.V.ogg";BG:39;
 SC:8;L:-40000;R:-39008;T:-40600;B:-40000;MZ:44;MF:"";BG:47;
 SC:9;L:-20000;R:-19200;T:-20600;B:-20000;MZ:24;MF:"S1 - Epicenter (EpiCentre) (SC4m12).mp3";BG:32;
 SC:10;L:0;R:800;T:-600;B:0;MZ:0;MF:"";BG:0;
