@@ -3,7 +3,7 @@ TL:"Stormy Sprint";CPID:"SMBX2";
 HEAD_END
 SECTION
 SC:0;L:-200000;R:-186144;T:-200600;B:-200000;MZ:24;MF:"11 - Kula World (Cowboy).ogg";BG:20;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
-SC:1;L:-180000;R:-178560;T:-180600;B:-180000;MZ:24;MF:"10B - We have Lee but you don't have.ogg";BG:20;
+SC:1;L:-180000;R:-178560;T:-180600;B:-180000;MZ:24;MF:"10B - We have Lee but you don't have.ogg";BG:32;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
 SC:2;L:-160000;R:-158976;T:-160600;B:-160000;MZ:24;MF:"4b - Room Before Boss.spc";BG:17;
 SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:24;MF:"11C - Mountaintop Tussle.mp3";BG:20;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
 SC:4;L:-120000;R:-119200;T:-120600;B:-120000;MZ:0;MF:"";BG:0;
