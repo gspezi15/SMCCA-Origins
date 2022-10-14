@@ -1,0 +1,27 @@
+[sky]
+name="sky"
+img="sky.png"
+depth=400
+speedX=-0.6
+alignY=BOTTOM
+repeatX=true
+
+[back]
+img="back.png"
+depth=250
+repeatX=true
+alignY=BOTTOM
+
+[backsawgrass]
+name="backsawgrass"
+img="sawgrass back.png"
+depth=100
+alignY=BOTTOM
+repeatX=true
+
+[sawgrasss]
+name="sawgrass"
+img="sawgrass.png"
+depth=50
+alignY=BOTTOM
+repeatX=true

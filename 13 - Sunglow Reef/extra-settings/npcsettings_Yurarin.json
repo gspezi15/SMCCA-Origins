@@ -1,0 +1,29 @@
+{
+	"style" : "groupbox",
+	"title" : "Yurarin Settings",
+	"layout": [	
+		
+		{
+			"control": "spinBox",
+			"type": "int",
+			"name": "jumpHeight",
+			"title": "Jump Speed",
+			"tooltip": "Modifies the default speed of the NPC when it jumps.",
+			"value-default": 6,
+			"value-min": 1,
+			"value-max": 20
+			
+		},
+		{
+			"control": "spinBox",
+			"type": "int",
+			"name": "jumpTimer",
+			"title": "Jump Time",
+			"tooltip": "Modifies the time before the next jump.",
+			"value-default": 250,
+			"value-min": 1,
+			"value-max": 1000
+		}
+			
+	]
+}
