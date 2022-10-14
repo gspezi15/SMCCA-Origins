@@ -5,3 +5,4 @@ local littleDialogue = require("littleDialogue")
 local smwMap = require("smwMap")
 littleDialogue.defaultStyleName = "ml"
 local extraSounds = require ("extrasounds")
+local pauseMenu = require("pauseMenu")
