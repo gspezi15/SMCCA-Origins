@@ -5,7 +5,7 @@ SECTION
 SC:0;L:-200000;R:-186144;T:-200600;B:-200000;MZ:24;MF:"11 - Kula World (Cowboy).ogg";BG:20;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
 SC:1;L:-180000;R:-178560;T:-180600;B:-180000;MZ:24;MF:"10B - We have Lee but you don't have.ogg";BG:32;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
 SC:2;L:-160000;R:-158976;T:-160600;B:-160000;MZ:24;MF:"4b - Room Before Boss.spc";BG:17;
-SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:24;MF:"11C - Mountaintop Tussle.mp3";BG:20;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
+SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:24;MF:"CutsceneMusic/Boss Talk.ogg";BG:20;XTRA:"{\n    \"effects\"\: {\n        \"weather\"\: 1\n    }\n}\n";
 SC:4;L:-120000;R:-119200;T:-120600;B:-120000;MZ:0;MF:"";BG:0;
 SC:14;L:80000;R:80800;T:79400;B:80000;MZ:0;MF:"";BG:0;
 SECTION_END
@@ -4056,10 +4056,9 @@ ID:361;X:-187312;Y:-200592;D:-1;GE:1;GT:2;GD:3;GM:40;
 ID:797;X:-186560;Y:-200320;D:-1;
 ID:430;X:-186624;Y:-200224;D:-1;
 ID:430;X:-159584;Y:-160160;D:-1;
-ID:284;X:-139620;Y:-140464;D:-1;CN:361;LR:"boss1";ED:"tornadowave1";
 ID:42;X:-139232;Y:-140192;D:-1;GE:1;GT:1;GD:2;GM:30;LR:"tornadoes1";XTRA:"{\n    \"parserInput\"\: \"cos(t*2)\;\\n\"\n}\n";
 ID:42;X:-139232;Y:-140256;D:-1;GE:1;GT:1;GD:2;GM:30;LR:"tornadoes1";XTRA:"{\n    \"parserInput\"\: \"cos(t*2)\;\\n\"\n}\n";
-ID:465;X:-139584;Y:-140160;D:-1;ED:"boss1";
+ID:465;X:-139584;Y:-140160;D:-1;ED:"bosstalk";
 ID:45;X:-139968;Y:-140160;D:-1;GE:1;GT:1;GD:1;GM:20;LR:"spawner";
 ID:284;X:-139428;Y:-140464;D:-1;CN:361;LR:"boss2";ED:"tornadowave2";
 ID:42;X:-140000;Y:-140368;D:1;GE:1;GT:1;GD:4;GM:30;LR:"tornadoes2";XTRA:"{\n    \"parserInput\"\: \"cos(t*2)\;\\n\"\n}\n";
@@ -4070,6 +4069,7 @@ ID:42;X:-139232;Y:-140256;D:-1;GE:1;GT:1;GD:2;GM:20;LR:"tornadoes3";XTRA:"{\n   
 ID:45;X:-139264;Y:-140160;D:-1;GE:1;GT:1;GD:1;GM:20;LR:"spawner";
 ID:284;X:-139620;Y:-140432;D:-1;CN:361;LR:"boss3";ED:"orb";
 ID:881;X:-139616;Y:-140320;D:-1;LR:"orb";
+ID:284;X:-139428;Y:-140464;D:-1;CN:361;LR:"boss1";ED:"tornadowave1";
 NPC_END
 DOORS
 IX:-186272;IY:-200256;OX:-179872;OY:-180256;DT:1;ID:4;OD:2;
@@ -4098,7 +4098,8 @@ ET:"thunder2";SD:43;TE:"thunder3";TD:55;AS:0;AX:0;AY:0;
 ET:"thunder3";SD:43;TE:"thunder4";TD:20;AS:0;AX:0;AY:0;
 ET:"thunder4";SD:43;TE:"thunder5";TD:47;AS:0;AX:0;AY:0;
 ET:"thunder5";SD:43;TE:"thunder1";TD:30;AS:0;AX:0;AY:0;
-ET:"boss1";LS:["boss1"];TE:"boss1-2";TD:150;AS:0;AX:0;AY:0;
+ET:"bosstalk";MG:"<portrait tatsu>You dare to challenge me?<page>I've been chasing storms and terrorising the countryside with lightning and tornadoes.<page>I'll throw you into the tornado!!!";LS:["boss1"];TE:"boss1";AS:0;AX:0;AY:0;
+ET:"boss1";TE:"boss1-2";TD:150;AS:0;AX:0;AY:0;
 ET:"boss1-2";LS:["spawner","tornadoes1"];AS:0;AX:0;AY:0;
 ET:"tornadowave1";LH:["spawner"];LS:["tornadoes2"];TE:"boss2";TD:300;AS:0;AX:0;AY:0;
 ET:"boss2";LH:["tornadoes1","spawner"];LS:["boss2"];TE:"boss2-2";TD:150;AS:0;AX:0;AY:0;

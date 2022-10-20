@@ -26,7 +26,7 @@ areaNames.sectionNames = {
 }
 
 function onEvent(eventname)
-	if eventname == "Musicchange" then
-		Audio.MusicChange (0, "13 Serious Trouble!.ogg")
+	if eventname == "boss1" then
+		Audio.MusicChange (3, "BossMusic/11C - Mountaintop Tussle.mp3")
 	end
 end
