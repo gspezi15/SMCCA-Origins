@@ -6,3 +6,5 @@ local smwMap = require("smwMap")
 littleDialogue.defaultStyleName = "ml"
 local extraSounds = require ("extrasounds")
 local pauseMenu = require("pauseMenu")
+
+local retroResolution = require("retroResolution")
