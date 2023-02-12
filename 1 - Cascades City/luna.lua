@@ -25,8 +25,10 @@ areaNames.sectionNames = {
         [20] = ""
 }
 
-function onEvent(eventname)
-	if eventname == "Musicchange" then
-		Audio.MusicChange (0, "13 Serious Trouble!.ogg")
+function onEvent(eventName)
+ if eventName == "bossmusic" then
+		Audio.MusicChange(0, "BossMusic/1B - Shadowrun Gunfight.spc")
 	end
-end
+end 
+
+		
