@@ -5,7 +5,7 @@ local areaNames = require("areanames")
 --Change this in your lua file to have automatically appearing messages on section switch for specific sections:
 areaNames.sectionNames = {
 	[0] = "Cerulean Ridge",
-        [1] = "Coral Labyrinth",
+        [1] = "Apppalachian Storm",
 		[2] = "Secret Area",
         [3] = "Atoll Maze",
         [4] = "Descent to Darkness",
