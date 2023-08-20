@@ -6,10 +6,11 @@ SC:0;L:-200000;R:-186080;T:-200600;B:-200000;MZ:24;MF:"14 - Blue Water Fangs.ogg
 SC:1;L:-180000;R:-179200;T:-180600;B:-180000;MZ:0;MF:"";BG:2;
 SC:2;L:-160000;R:-159200;T:-160600;B:-160000;MZ:24;MF:"14 - Blue Water Fangs.ogg";BG:10;
 SC:3;L:-140000;R:-139200;T:-140600;B:-140000;MZ:24;MF:"4b - Room Before Boss.spc";BG:10;
-SC:4;L:-120000;R:-118816;T:-120600;B:-120000;MZ:24;MF:"14c - Wario Land Battle Theme.spc";BG:10;
+SC:4;L:-120000;R:-118816;T:-120600;B:-120000;MZ:24;MF:"BossMusic/14B Kaa the Snake.spc";BG:10;
 SC:10;L:0;R:800;T:-600;B:0;MZ:0;MF:"";BG:0;
 SC:11;L:20000;R:20800;T:19400;B:20000;MZ:0;MF:"";BG:0;
 SC:13;L:60000;R:60800;T:59400;B:60000;MZ:0;MF:"";BG:0;
+SC:20;L:200000;R:200800;T:199400;B:200000;MZ:0;MF:"";BG:0;
 SECTION_END
 STARTPOINT
 ID:1;X:-199900;Y:-200150;D:1;
@@ -3361,6 +3362,7 @@ ID:83;X:-118880;Y:-120032;
 ID:83;X:-118848;Y:-120064;
 ID:83;X:-118848;Y:-120032;
 ID:6;X:-119264;Y:-120192;
+ID:59;X:-119136;Y:-120288;LR:"kaahypno";
 BGO_END
 NPC
 ID:11;X:-179616;Y:-180352;D:-1;
@@ -3399,7 +3401,22 @@ ID:972;X:-193800;Y:-200192;D:-1;
 ID:972;X:-187880;Y:-200256;D:-1;
 ID:972;X:-187720;Y:-200352;D:-1;
 ID:430;X:-139680;Y:-140192;D:-1;
-ID:209;X:-119138;Y:-120288;D:-1;
+ID:209;X:-119138;Y:-120288;D:-1;LR:"kaaidle";EA:"Idle1";
+ID:800;X:-119168;Y:-120272;D:-1;LR:"emitter";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitid\"\: 269\,\n    \"emitting\"\: true\,\n    \"speedXMax\"\: -3\,\n    \"speedYMax\"\: 1\,\n    \"speedYMin\"\: 1\n}\n";
+ID:751;X:-119200;Y:-120256;D:-1;LR:"wave1";EE:"Vulnerable";
+ID:751;X:-119264;Y:-120256;D:-1;LR:"wave1";EE:"Vulnerable";
+ID:71;X:-119138;Y:-120288;D:-1;LR:"vulnerable";ED:"Idle2";
+ID:800;X:-119168;Y:-120272;D:-1;LR:"emitter2";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitid\"\: 210\,\n    \"emittingInterval\"\: 8\,\n    \"speedXMax\"\: -3\n}\n";
+ID:751;X:-119264;Y:-120256;D:-1;LR:"wave2";EE:"Vulnerable2";
+ID:754;X:-119200;Y:-120256;D:-1;LR:"wave2";EE:"Vulnerable2";
+ID:751;X:-119328;Y:-120224;D:-1;LR:"wave2";EE:"Vulnerable2";
+ID:71;X:-119138;Y:-120288;D:-1;LR:"vulnerable2";ED:"Idle3";
+ID:800;X:-119168;Y:-120272;D:-1;LR:"emitter3";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitid\"\: 269\,\n    \"emitting\"\: false\,\n    \"speedXMax\"\: -3\,\n    \"speedYMax\"\: 0\,\n    \"speedYMin\"\: 0\n}\n";
+ID:754;X:-119264;Y:-120256;D:-1;LR:"wave3";EE:"Vulnerable3";
+ID:754;X:-119200;Y:-120256;D:-1;LR:"wave3";EE:"Vulnerable3";
+ID:754;X:-119328;Y:-120192;D:-1;LR:"wave3";EE:"Vulnerable3";
+ID:71;X:-119138;Y:-120288;D:-1;LR:"vulnerable3";ED:"Defeat";
+ID:881;X:-119392;Y:-120160;D:-1;LR:"Orb";
 NPC_END
 PHYSICS
 ET:0;X:-197008;Y:-200064;W:272;H:64;
@@ -3418,10 +3435,38 @@ LR:"Default";
 LR:"Destroyed Blocks";HD:1;
 LR:"Spawned NPCs";
 LR:"1UP";HD:1;
+LR:"kaaidle";
+LR:"kaahypno";
+LR:"emitter";HD:1;
+LR:"wave1";HD:1;
+LR:"vulnerable";HD:1;
+LR:"emitter2";HD:1;
+LR:"wave2";HD:1;
+LR:"vulnerable2";HD:1;
+LR:"emitter3";HD:1;
+LR:"wave3";HD:1;
+LR:"vulnerable3";HD:1;
+LR:"Orb";HD:1;
 LAYERS_END
 EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - End";AS:0;AX:0;AY:0;
 ET:"bazuka";LS:["1UP"];AS:0;AX:0;AY:0;
+ET:"Idle1";LH:["kaahypno"];LS:["kaaidle"];SSS:["ID\:4\;SL\:-119712\;ST\:-120600\;SB\:-120000\;SR\:-118912\;"];TE:"Attack1";TD:30;AS:0;AX:0;AY:0;
+ET:"Attack1";SD:80;LH:["kaaidle"];LS:["kaahypno","emitter"];TE:"Attack2";TD:40;AS:0;AX:0;AY:0;
+ET:"Attack2";SD:80;LH:["emitter"];LS:["wave1"];AS:0;AX:0;AY:0;
+ET:"Vulnerable";LH:["kaahypno"];LS:["vulnerable"];AS:0;AX:0;AY:0;
+ET:"Idle2";SD:78;LS:["kaaidle"];TE:"Attack3";TD:30;AS:0;AX:0;AY:0;
+ET:"Attack3";SD:80;LH:["kaaidle"];LS:["emitter2","kaahypno"];TE:"Grace1";TD:100;AS:0;AX:0;AY:0;
+ET:"Grace1";LH:["emitter2"];TE:"Attack4";TD:50;AS:0;AX:0;AY:0;
+ET:"Attack4";SD:80;LS:["wave2"];AS:0;AX:0;AY:0;
+ET:"Vulnerable2";LH:["kaahypno"];LS:["vulnerable2"];AS:0;AX:0;AY:0;
+ET:"Idle3";SD:78;LS:["kaaidle"];TE:"Attack5";TD:30;AS:0;AX:0;AY:0;
+ET:"Attack5";SD:80;LH:["kaaidle"];LS:["emitter3","emitter2","kaahypno"];TE:"Grace2";TD:150;AS:0;AX:0;AY:0;
+ET:"Grace2";LH:["emitter3","emitter2"];TE:"Attack6";TD:40;AS:0;AX:0;AY:0;
+ET:"Attack6";SD:80;LS:["wave3"];AS:0;AX:0;AY:0;
+ET:"Vulnerable3";LH:["kaahypno"];LS:["vulnerable3"];AS:0;AX:0;AY:0;
+ET:"Defeat";SD:63;TE:"Orb";TD:50;AS:0;AX:0;AY:0;
+ET:"Orb";SD:20;LS:["Orb"];AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END
