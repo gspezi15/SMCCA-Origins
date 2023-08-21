@@ -4018,6 +4018,7 @@ ID:123;X:-178592;Y:-180352;
 ID:123;X:-178592;Y:-180320;
 ID:123;X:-178592;Y:-180288;
 ID:123;X:-178592;Y:-180256;
+ID:16;X:-139968;Y:-140608;LR:"tornado";
 BGO_END
 NPC
 ID:797;X:-199040;Y:-200320;D:-1;
@@ -4067,13 +4068,16 @@ ID:94;X:-179424;Y:-180246;D:-1;MG:"Sorry for the anticlimax.";FD:1;
 ID:42;X:-139232;Y:-140192;D:-1;GE:1;GT:1;GD:2;GM:20;LR:"tornadoes3";XTRA:"{\n    \"parserInput\"\: \"y=2*sin(4*t)\;\\n\"\n}\n";
 ID:42;X:-139232;Y:-140256;D:-1;GE:1;GT:1;GD:2;GM:20;LR:"tornadoes3";XTRA:"{\n    \"parserInput\"\: \"y=2*sin(4*t)\;\\n\"\n}\n";
 ID:45;X:-139264;Y:-140160;D:-1;GE:1;GT:1;GD:1;GM:20;LR:"spawner";
-ID:873;X:-139584;Y:-140496;D:-1;LR:"boss3";ED:"defeat";XTRA:"{\n    \"delay\"\: 550\,\n    \"hp\"\: 4\,\n    \"speed\"\: 3\n}\n";
+ID:873;X:-139584;Y:-140496;D:-1;LR:"boss3";ED:"desperation";XTRA:"{\n    \"delay\"\: 400\,\n    \"hp\"\: 10\,\n    \"speed\"\: 2.5\n}\n";
 ID:881;X:-139616;Y:-140320;D:-1;LR:"orb";
 ID:873;X:-139584;Y:-140496;D:-1;LR:"boss1";ED:"boss1-2";XTRA:"{\n    \"hp\"\: 5\,\n    \"spawnDelay\"\: 85\,\n    \"thunderID\"\: 874\n}\n";
 ID:177;X:-139616;Y:-140512;D:-1;S1:2;FD:1;LR:"bullethell1";LA:"emitter1";
-ID:800;X:-139616;Y:-140480;D:-1;LR:"emitter1";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitid\"\: 414\,\n    \"speedYMax\"\: 4\,\n    \"speedYMin\"\: 4\n}\n";
+ID:800;X:-139616;Y:-140480;D:-1;LR:"emitter1";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitid\"\: 414\,\n    \"speedYMax\"\: 4\,\n    \"speedYMin\"\: 4\n}\n";
 ID:177;X:-139264;Y:-140192;D:-1;S1:2;FD:1;NM:1;LR:"bullethell2";LA:"emitter2";
-ID:800;X:-139296;Y:-140192;D:-1;LR:"emitter2";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitTimer\"\: 40\,\n    \"emitid\"\: 414\,\n    \"emitting\"\: false\,\n    \"speedXMax\"\: -3\,\n    \"speedYMax\"\: 1\,\n    \"speedYMin\"\: 1\,\n    \"waitTimer\"\: 160\n}\n";
+ID:800;X:-139296;Y:-140192;D:-1;LR:"emitter2";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitTimer\"\: 40\,\n    \"emitid\"\: 414\,\n    \"emitting\"\: false\,\n    \"speedXMax\"\: -3\,\n    \"speedYMax\"\: 1\,\n    \"speedYMin\"\: 1\,\n    \"waitTimer\"\: 160\n}\n";
+ID:71;X:-139880;Y:-140206;D:-1;LR:"vulnerable1";ED:"defeat";
+ID:797;X:-139616;Y:-140320;D:1;LR:"wind";
+ID:800;X:-139904;Y:-140448;D:-1;LR:"emitter3";XTRA:"{\n    \"FXSet\"\: 1\,\n    \"SFXSet\"\: 1\,\n    \"emitSFX\"\: 62\,\n    \"emitid\"\: 414\,\n    \"emittingInterval\"\: 8\,\n    \"speedXMin\"\: -1\,\n    \"speedYMax\"\: 3\,\n    \"speedYMin\"\: -3\n}\n";
 NPC_END
 DOORS
 IX:-186272;IY:-200256;OX:-179872;OY:-180256;DT:1;ID:4;OD:2;
@@ -4094,9 +4098,12 @@ LR:"boss3";HD:1;
 LR:"orb";HD:1;
 LR:"bullethell1";HD:1;
 LR:"emitter1";HD:1;
-LR:"vulnerable1";
+LR:"vulnerable1";HD:1;
 LR:"bullethell2";HD:1;
 LR:"emitter2";HD:1;
+LR:"tornado";HD:1;
+LR:"emitter3";HD:1;
+LR:"wind";HD:1;
 LAYERS_END
 EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
@@ -4109,13 +4116,15 @@ ET:"thunder4";SD:43;TE:"thunder5";TD:47;AS:0;AX:0;AY:0;
 ET:"thunder5";SD:43;TE:"thunder1";TD:30;AS:0;AX:0;AY:0;
 ET:"bosstalk";MG:"<portrait tatsu>You dare to challenge me?<page>I've been chasing storms and terrorising the countryside with lightning and tornadoes.<page>I'll throw you into the tornado!!!";LS:["boss1"];TE:"boss1";DS:1;AS:0;AX:0;AY:0;
 ET:"boss1";AS:0;AX:0;AY:0;
-ET:"boss1-2";LH:["boss1"];LS:["bullethell1","emitter1"];TE:"boss2";TD:200;AS:0;AX:0;AY:0;
+ET:"boss1-2";SD:78;LH:["boss1"];LS:["bullethell1","emitter1"];TE:"boss2";TD:200;AS:0;AX:0;AY:0;
 ET:"tornadowave1";LH:["spawner"];LS:["tornadoes2"];TE:"boss2";TD:300;AS:0;AX:0;AY:0;
 ET:"boss2";LH:["bullethell1","emitter1"];LS:["boss2"];AS:0;AX:0;AY:0;
-ET:"boss2-2";LS:["emitter2","bullethell2"];TE:"boss3";TD:200;AS:0;AX:0;AY:0;
+ET:"boss2-2";SD:78;LS:["emitter2","bullethell2"];TE:"boss3";TD:200;AS:0;AX:0;AY:0;
 ET:"tornadowave2";LH:["spawner"];LS:["tornadoes3"];TE:"boss3";TD:300;AS:0;AX:0;AY:0;
 ET:"boss3";LH:["bullethell2","emitter2"];LS:["boss3"];TE:"boss3-2";TD:150;AS:0;AX:0;AY:0;
+ET:"desperation";SD:78;LS:["emitter3","wind","tornado"];TE:"vulnerable";TD:300;AS:0;AX:0;AY:0;
+ET:"vulnerable";LH:["wind","emitter3","tornado"];LS:["vulnerable1"];AS:0;AX:0;AY:0;
 ET:"boss3-2";AS:0;AX:0;AY:0;
-ET:"defeat";TE:"orb";TD:50;AS:0;AX:0;AY:0;
-ET:"orb";SD:21;LH:["tornadoes2","tornadoes1","tornadoes3"];LS:["orb"];AS:0;AX:0;AY:0;
+ET:"defeat";SD:63;TE:"orb";TD:50;AS:0;AX:0;AY:0;
+ET:"orb";SD:20;LH:["tornadoes2","tornadoes1","tornadoes3"];LS:["orb"];AS:0;AX:0;AY:0;
 EVENTS_CLASSIC_END
