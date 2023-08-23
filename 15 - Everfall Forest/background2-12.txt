@@ -1,0 +1,11 @@
+[fore]
+img="fore.png"
+depth=150
+repeatX=true
+alignY=BOTTOM
+
+[rear]
+img="actraiser_filmore_forest.png"
+depth=250
+repeatX=true
+alignY=BOTTOM
