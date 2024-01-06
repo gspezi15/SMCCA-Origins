@@ -10,6 +10,12 @@ repeatX=true
 alignY=BOTTOM
 img="clouds.png"
 speedX=-0.2
+priority=-96
+
+[sun]
+priority=-100
+alignY=BOTTOM
+img="sun.png"
 
 [mesa]
 depth=300
