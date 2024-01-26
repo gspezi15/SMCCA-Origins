@@ -1,0 +1,4 @@
+frames=1
+framestyle=1
+gfxwidth=32
+width=32

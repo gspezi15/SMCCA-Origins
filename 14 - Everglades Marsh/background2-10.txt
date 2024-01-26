@@ -1,27 +1,33 @@
 [sky]
 name="sky"
 img="sky.png"
-depth=400
-speedX=-0.6
+depth=600
 alignY=BOTTOM
 repeatX=true
 
 [back]
 img="back.png"
-depth=250
+depth=300
 repeatX=true
 alignY=BOTTOM
+
+[tracer]
+img="tracer.png"
+depth=200
+repeatX=true
+alignY=BOTTOM
+frames=8
 
 [backsawgrass]
 name="backsawgrass"
 img="sawgrass back.png"
-depth=100
+depth=150
 alignY=BOTTOM
 repeatX=true
 
 [sawgrasss]
 name="sawgrass"
 img="sawgrass.png"
-depth=50
+depth=100
 alignY=BOTTOM
 repeatX=true
