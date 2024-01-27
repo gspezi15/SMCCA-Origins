@@ -49,7 +49,7 @@ local dragonmazuSettings = {
 
 	grabside=false,
 	grabtop=false,
-	muted=false,
+	muted=true,
 	score=9,
 	shootDelay=48,
 	health=20,
@@ -192,6 +192,8 @@ function dragonmazu.onTickEndNPC(v)
 	if Defines.levelFreeze then return end
 	
 	local data = v.data
+	
+	npcutils.applyLayerMovement(v)
 	
 	--If despawned
 	if v.despawnTimer <= 0 then
