@@ -5,6 +5,7 @@ depth=500
 speedX=-0.6
 alignY=BOTTOM
 repeatX=true
+priority=-100
 
 [clouds]
 img="thickclouds.png"
@@ -12,6 +13,7 @@ depth=300
 repeatX=true
 alignY=BOTTOM
 speedX=-0.8
+priority=-98
 
 [mountains]
 name="mountains"
@@ -19,6 +21,7 @@ img="mountains.png"
 depth=350
 alignY=BOTTOM
 repeatX=true
+priority=-98
 
 [hakkunhills]
 name="hakkunhills"
@@ -26,3 +29,4 @@ img="forest.png"
 depth=150
 alignY=BOTTOM
 repeatX=true
+priority=-98

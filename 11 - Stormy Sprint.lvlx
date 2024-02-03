@@ -4109,7 +4109,7 @@ EVENTS_CLASSIC
 ET:"Level - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - Start";AS:0;AX:0;AY:0;
 ET:"P Switch - End";AS:0;AX:0;AY:0;
-ET:"thunder1";SD:43;TE:"thunder2";TD:30;AU:1;AS:0;AX:0;AY:0;
+ET:"thunder1";SD:43;TE:"thunder2";TD:30;AS:0;AX:0;AY:0;
 ET:"thunder2";SD:43;TE:"thunder3";TD:55;AS:0;AX:0;AY:0;
 ET:"thunder3";SD:43;TE:"thunder4";TD:20;AS:0;AX:0;AY:0;
 ET:"thunder4";SD:43;TE:"thunder5";TD:47;AS:0;AX:0;AY:0;
