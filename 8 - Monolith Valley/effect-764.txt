@@ -1,0 +1,5 @@
+[1]
+frames = 1
+xAlign = MID
+yAlign = MID
+import = AI_ARC

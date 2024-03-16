@@ -1,0 +1,2 @@
+GFX by Deltomx3
+Parts of code taken from extendedKoopa.lua and spike NPCs by MrDoubleA
