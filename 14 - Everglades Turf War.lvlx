@@ -6832,6 +6832,7 @@ ID:987;X:-146728;Y:-160498;D:-1;
 ID:800;X:-146512;Y:-160480;D:-1;XTRA:"{\n    \"emitSFX\"\: 66\,\n    \"emitid\"\: 133\,\n    \"emitting\"\: true\,\n    \"speedXMax\"\: -2\,\n    \"speedXMin\"\: -2\,\n    \"speedYMax\"\: 4\,\n    \"speedYMin\"\: 4\n}\n";
 ID:755;X:-146080;Y:-160320;D:-1;
 ID:753;X:-154208;Y:-160352;D:-1;
+ID:94;X:-187360;Y:-200374;D:-1;MG:"A turf war has been going on between the Federation and the Muda Kingdom for over a year now. These helicopters can catch you in the crossfire.";FD:1;
 NPC_END
 PHYSICS
 ET:0;X:-197008;Y:-200064;W:272;H:64;
