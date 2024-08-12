@@ -1,5 +1,11 @@
+[back]
+img="swampdkc2.png"
+depth=480
+repeatX=true
+alignY=BOTTOM
+
 [swamp]
-img="swamp.png"
+img="swamptrees.png"
 depth=300
 repeatX=true
 alignY=BOTTOM
